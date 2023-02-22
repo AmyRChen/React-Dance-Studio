@@ -16,19 +16,19 @@ const Landing = ({ setSelectedPage }) => {
         {isAboveMediumScreens ? (
           <div
             className="relative z-0 ml-20 before:absolute before:-top-20 before:-left-20 before:rounded-t-[400px]
-            before:w-full before:max-w-[400px] md:before:max-w-[600px] before:h-full before:border-2 before:border-blue before:z-[-1]"
+            before:w-full before:max-w-[300px] md:before:max-w-[450px] before:h-full before:border-2 before:border-blue before:z-[-1]"
           >
             <img
               alt="profile"
-              className="hover:filter hover:saturate-200 transition duration-500 z-10 w-full max-w-[400px] md:max-w-[600px]"
-              src="assets/profile-image.png"
+              className="hover:contrast-125 transition duration-500 z-10 w-full max-w-[300px] md:max-w-[450px] rounded-t-[400px]"
+              src="assets/profile.png"
             />
           </div>
         ) : (
           <img
             alt="profile"
-            className="z-10 w-full max-w-[400px] md:max-w-[600px]"
-            src="assets/profile-image.png"
+            className="z-10 w-full max-w-[300px] md:max-w-[450px] rounded-t-[400px]"
+            src="assets/profile.png"
           />
         )}
       </div>
@@ -76,21 +76,22 @@ const Landing = ({ setSelectedPage }) => {
             visible: { opacity: 1, x: 0 },
           }}
         >
-          <AnchorLink
+          <a
             className="bg-gradient-rainblue text-deep-blue rounded-sm py-3 px-7 font-semibold
-              hover:bg-blue hover:text-white transition duration-500"
-            onClick={() => setSelectedPage("contact")}
-            href="#contact"
+              hover:bg-blue hover:text-white transition duration-500 font-playfair"
+            href="https://drive.google.com/file/d/1ArQ_ukrmxThHEd6s4wIj786Nk_sXaXgm/view?usp=share_link"
+            target="blank"
+            rel="noreferrer"
           >
-            Contact Me
-          </AnchorLink>
+            My Resume
+          </a>
           <AnchorLink
             className="rounded-r-sm bg-gradient-rainblue py-0.5 pr-0.5"
             onClick={() => setSelectedPage("contact")}
             href="#contact"
           >
             <div className="bg-deep-blue hover:text-red transition duration-500 w-full h-full flex items-center justify-center px-10 font-playfair">
-              Let's talk.
+              Contact Me!
             </div>
           </AnchorLink>
         </motion.div>
