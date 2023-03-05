@@ -19,15 +19,16 @@ const Project = ({ title }) => {
     bg-grey z-30 flex-col justify-center items-center text-center p-16 text-deep-blue`;
 
   return (
-    <motion.div variants={projectVariant} className="relative">
+    <motion.div
+      variants={projectVariant}
+      className="relative max-w-[400px]
+    max-h-[400px]"
+    >
       <div className={overlayStyles}>
         <p className="text-2xl font-playfair">{title}</p>
-        <p className="mt-7">
-          Lorem ipsum dolor sit amet consectetur adipisicing elit. Quaerat,
-          aperiam.
-        </p>
+        {/* <p className="mt-7">{project}</p>; */}
       </div>
-      <img src={`../assets/${projectTitle}.jpeg`} alt={projectTitle} />
+      <img src={`../assets/${projectTitle}.jpg`} alt={projectTitle} />
     </motion.div>
   );
 };
@@ -56,9 +57,8 @@ const Projects = () => {
           </div>
         </div>
         <p className="mt-10 mb-10">
-          Lorem ipsum dolor sit amet consectetur adipisicing elit. Adipisci,
-          fugit!Lorem ipsum dolor sit amet consectetur adipisicing elit.
-          Adipisci, fugit!
+          Each project reflects my passion for exploring new technologies and
+          solving real-world problems.
         </p>
       </motion.div>
 
@@ -73,28 +73,29 @@ const Projects = () => {
           variants={container}
         >
           {/* ROW 1 */}
-          <div
+          {/* <div
             className="flex justify-center text-center items-center p-10 bg-red max-w-[400px]
-            max-h-[400px] text-2xl font-playfair font-semibold"
+            max-h-[400px] text-3xl font-playfair font-semibold"
           >
-            BEAUTIFUL USER INTERFACES
-          </div>
+            ...
+          </div> */}
           <Project title="Project 1" />
           <Project title="Project 2" />
 
           {/* ROW 2 */}
-          <Project title="Project 3" />
+          {/* <Project title="Project 3" /> 
           <Project title="Project 4" />
-          <Project title="Project 5" />
+          <Project title="Project 5" /> */}
 
           {/* ROW 3 */}
-          <Project title="Project 6" />
-          <Project title="Project 7" />
+          {/* <Project title="Project 6" />
+          <Project title="Project 7" /> */}
           <div
             className="flex justify-center text-center items-center p-10 bg-blue max-w-[400px]
-            max-h-[400px] text-2xl font-playfair font-semibold"
+            max-h-[400px] text-3xl font-playfair font-semibold"
           >
-            SMOOTH USER EXPERIENCE
+            Keep Learning <br />
+            and Exploring
           </div>
         </motion.div>
       </div>

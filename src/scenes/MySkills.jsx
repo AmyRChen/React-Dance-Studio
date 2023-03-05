@@ -24,8 +24,9 @@ const MySkills = () => {
           </p>
           <LineGradient width="w-1/3" />
           <p className="mt-10 mb-7">
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Adipisci,
-            fugit!
+            I have a strong problem-solving ability and extensive experience in
+            business analysis. As a self-starter, I am always excited to
+            collaborate with teams and inspire each other!
           </p>
         </motion.div>
 
@@ -70,10 +71,11 @@ const MySkills = () => {
             <div className="w-1/2 md:w-3/4 h-32 bg-blue absolute right-0 top-0 z-[-1]" />
           </div>
           <p className="mt-5">
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Quibusdam
-            in odit minus fugit aut esse doloremque dolorem animi itaque.
-            Libero, esse temporibus et eveniet perspiciatis unde voluptates eos
-            fugit! Dignissimos.
+            I am currently pursuing a <strong>Computer Programming</strong>{" "}
+            diploma at Seneca College. Prior to my studies, I worked as a{" "}
+            <strong>Business Analyst</strong> in the Information Technology
+            Service department at Deloitte, where I was responsible for managing
+            projects for the Audit team.
           </p>
         </motion.div>
 
@@ -93,16 +95,21 @@ const MySkills = () => {
             <div className="z-10">
               <p className="font-playfair font-semibold text-5xl">02</p>
               <p className="font-playfair font-semibold text-3xl mt-3">
-                Innovative
+                Technical Skills
               </p>
             </div>
             <div className="w-1/2 md:w-3/4 h-32 bg-red absolute right-0 top-0 z-[-1]" />
           </div>
           <p className="mt-5">
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Quibusdam
-            in odit minus fugit aut esse doloremque dolorem animi itaque.
-            Libero, esse temporibus et eveniet perspiciatis unde voluptates eos
-            fugit! Dignissimos.
+            I am skilled in{" "}
+            <strong>C, C++, Python, JavaScript, and TypeScript</strong>, as well
+            as database technologies such as{" "}
+            <strong>Oracle, MySQL, PostgreSQL, and MongoDB</strong>. I am
+            passionate about web development, where I have focused on{" "}
+            <strong>
+              React, Redux, Tailwind CSS, Node.js, Express.js, and Next.js
+            </strong>
+            .
           </p>
         </motion.div>
 
@@ -122,16 +129,19 @@ const MySkills = () => {
             <div className="z-10">
               <p className="font-playfair font-semibold text-5xl">03</p>
               <p className="font-playfair font-semibold text-3xl mt-3">
-                Innovative
+                Project Management
               </p>
             </div>
             <div className="w-1/2 md:w-3/4 h-32 bg-yellow absolute right-0 top-0 z-[-1]" />
           </div>
           <p className="mt-5">
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Quibusdam
-            in odit minus fugit aut esse doloremque dolorem animi itaque.
-            Libero, esse temporibus et eveniet perspiciatis unde voluptates eos
-            fugit! Dignissimos.
+            With rich experience in leading projects and understanding business
+            requirements, during school I have collaborated with classmates on
+            various hands-on projects and developed project management skills
+            such as <strong>Agile and Waterfall models</strong>. Additionally, I
+            have designed systems based on{" "}
+            <strong>stakeholder requirements</strong> and followed the{" "}
+            <strong>SDLC</strong> process.
           </p>
         </motion.div>
       </div>

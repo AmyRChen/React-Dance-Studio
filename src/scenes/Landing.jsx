@@ -57,10 +57,10 @@ const Landing = ({ setSelectedPage }) => {
           </p>
 
           <p className="mt-10 mb-7 text-sm text-center md:text-start">
-            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolorem
-            obcaecati, nisi ut molestiae ipsum quibusdam optio voluptatibus
-            temporibus quidem atque quos repellendus nobis facilis magnam at quo
-            corporis aliquid veniam?
+            Hi there, I'm originally from Taiwan and previously worked in an
+            accounting firm before deciding to move to Toronto. Currently, I'm a
+            computer programming student and hope to become a professional
+            engineer as I pursue my passion in the field.
           </p>
         </motion.div>
 
@@ -91,7 +91,7 @@ const Landing = ({ setSelectedPage }) => {
             href="#contact"
           >
             <div className="bg-deep-blue hover:text-red transition duration-500 w-full h-full flex items-center justify-center px-10 font-playfair">
-              Contact Me!
+              Contact Me !
             </div>
           </AnchorLink>
         </motion.div>
