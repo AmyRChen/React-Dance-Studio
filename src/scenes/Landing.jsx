@@ -79,7 +79,7 @@ const Landing = ({ setSelectedPage }) => {
           <a
             className="bg-gradient-rainblue text-deep-blue rounded-sm py-3 px-7 font-semibold
               hover:bg-blue hover:text-white transition duration-500 font-playfair"
-            href="https://drive.google.com/file/d/1ArQ_ukrmxThHEd6s4wIj786Nk_sXaXgm/view?usp=share_link"
+            href="https://drive.google.com/file/d/1tdadY3Y_x7XnSiJ3l7ufBigZFFF1QzFk/view?usp=share_link"
             target="blank"
             rel="noreferrer"
           >
