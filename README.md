@@ -1,9 +1,8 @@
 ## Chat App with ChatGPT API
 Production: https://chat-app-frontend-i0y4.onrender.com/
 
-Username for test: test-user1
-
-Password for test: 123
+- Username for test: test-user1
+- Password for test: 123
 
 Environment: JavaScript, React, Node.js, Express.js, Redux, ChatEngine, ChatGPT API, Render
 - A real-time Chat Application using ChatEngine, which integrates with OpenAI's Chatbot API 
