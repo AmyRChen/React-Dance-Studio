@@ -1,22 +1,9 @@
-## Chat App with ChatGPT API
-Production: https://chat-app-frontend-i0y4.onrender.com/
+## Portfolio Web App
+Production: react-portfolio-app-amyrchen.vercel.app
 
-- Username for test: test-user1
-- Password for test: 123
+Environment: JavaScript, React, Tailwind CSS, Framer Motion, Vercel
 
-Environment: JavaScript, React, Node.js, Express.js, Redux, ChatEngine, ChatGPT API, Render
-- A real-time Chat Application using ChatEngine, which integrates with OpenAI's Chatbot API 
-powered by ChatGPT, to enable natural and intelligent language conversations between users.
+A portfolio website has well-designed landing page. Whole application is build as one page scroll down web page. 
 
-## Front-end
-- Use Chat Engine as chat application framework.
-  URL: https://chatengine.io/
-- Reudx toolkit for state management
-- Redux tooljit query for making API calls
-- React router for navigation
-- Heroicons for cute icons
-
-## Back-end
-- Use node.js as a runtime
-- Express.js as back-end framework
-- OpenAI for AI integration 
+### Plan
+I am planning to improve this web app and transform it into a company website. Additionally, I will be developing a new portfolio page to showcase my work, skills, and experiences.
