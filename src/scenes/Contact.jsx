@@ -1,6 +1,7 @@
 import LineGradient from "../components/LineGradient";
 import { useForm } from "react-hook-form";
 import { motion } from "framer-motion";
+import contact_bg from "../assets/contact_img.jpg";
 
 const Contact = () => {
   const {
@@ -16,9 +17,12 @@ const Contact = () => {
       e.preventDefault();
     }
   };
-
   return (
-    <section id="contact" className="py-48">
+    <section
+      id="contact"
+      className="py-40 bg-cover bg-center bg-no-repeat overflow-hidden"
+      style={{ backgroundImage: `url(${contact_bg})` }}
+    >
       {/* HEADINGS */}
       <motion.div
         className="flex justify-end w-full"
@@ -31,18 +35,19 @@ const Contact = () => {
           visible: { opacity: 1, x: 0 },
         }}
       >
+        {" "}
         <div>
-          <p className="font-playfair font-semibold text-4xl">
-            <span className="text-yellow">CONTACT ME</span> TO GET STARTED
+          <p className="font-playfair font-semibold text-4xl mr-36">
+            CONTACT US <span className="text-red">TO GET STARTED</span>
           </p>
-          <div className="flex md:justify-end my-5">
+          <div className="flex md:justify-end my-5 mr-36 ml-auto">
             <LineGradient width="w-1/2" />
           </div>
         </div>
       </motion.div>
 
-      {/* FORM & IMAGE */}
-      <div className="md:flex md:justify-between gap-16 mt-5">
+      {/* FORM*/}
+      <div className="md:flex md:justify-between gap-16 mt-5 mr-36">
         <motion.div
           className="basis-1/2 flex justify-center"
           initial="hidden"
@@ -53,9 +58,7 @@ const Contact = () => {
             hidden: { opacity: 0, y: -50 },
             visible: { opacity: 1, y: 0 },
           }}
-        >
-          <img src="../assets/contact-image.jpeg" alt="contact" />
-        </motion.div>
+        ></motion.div>
 
         <motion.div
           className="basis-1/2 mt-10 ms:mt-0"
@@ -75,7 +78,7 @@ const Contact = () => {
             method="POST"
           >
             <input
-              className="w-full bg-blue font-semibold placeholder-opaque-black p-3"
+              className="w-full bg-blue font-semibold placeholder-opaque-black p-3 opacity-70"
               type="text"
               placeholder="NAME"
               {...register("name", {
@@ -92,7 +95,7 @@ const Contact = () => {
             )}
 
             <input
-              className="w-full bg-blue font-semibold placeholder-opaque-black p-3 mt-5"
+              className="w-full bg-blue font-semibold placeholder-opaque-black p-3 mt-5 opacity-70"
               type="text"
               placeholder="YOUR EMAIL"
               {...register("email", {
@@ -108,10 +111,10 @@ const Contact = () => {
             )}
 
             <textarea
-              className="w-full bg-blue font-semibold placeholder-opaque-black p-3 mt-5"
+              className="w-full bg-blue font-semibold placeholder-opaque-black p-3 mt-5 opacity-70"
               type="text"
               placeholder="MESSAGE"
-              rows="4"
+              rows="2"
               cols="50"
               {...register("message", {
                 required: true,
@@ -127,10 +130,10 @@ const Contact = () => {
             )}
             <button
               type="submit"
-              className="p-5 bg-yellow font-semibold text-deep-blue mt-5 hover:bg-red 
+              className="p-3 bg-yellow font-semibold opacity-70 text-deep-blue mt-5 hover:bg-red 
                 hover:text-white transition duration-500"
             >
-              SEND ME A MESSAGE
+              SEND AC DANCE STUDIO A MESSAGE
             </button>
           </form>
         </motion.div>

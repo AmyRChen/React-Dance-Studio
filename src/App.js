@@ -5,8 +5,8 @@ import Navbar from "./scenes/Navbar";
 import DotGroup from "./scenes/DotGroup";
 import Landing from "./scenes/Landing";
 import LineGradient from "./components/LineGradient";
-import MySkills from "./scenes/MySkills";
-import Projects from "./scenes/Projects";
+import About from "./scenes/About";
+import Genres from "./scenes/Genres";
 import Contact from "./scenes/Contact";
 import Footer from "./scenes/Footer";
 
@@ -35,7 +35,7 @@ function App() {
         selectedPage={selectedPage}
         setSelectedPage={setSelectedPage}
       />
-      <div className="w-5/6 mx-auto md:h-full">
+      <div className="w-screen mx-auto md:h-full">
         {isAboveMediumScreens && (
           <DotGroup
             selectedPage={selectedPage}
@@ -55,9 +55,9 @@ function App() {
         <motion.div
           margin="0 0 -200px 0"
           amount="all"
-          onViewportEnter={() => setSelectedPage("skills")}
+          onViewportEnter={() => setSelectedPage("about")}
         >
-          <MySkills />
+          <About />
         </motion.div>
       </div>
       <LineGradient />
@@ -65,13 +65,13 @@ function App() {
         <motion.div
           margin="0 0 -200px 0"
           amount="all"
-          onViewportEnter={() => setSelectedPage("projects")}
+          onViewportEnter={() => setSelectedPage("genres")}
         >
-          <Projects />
+          <Genres />
         </motion.div>
       </div>
       <LineGradient />
-      <div className="w-5/6 mx-auto md:h-full">
+      <div className="w-screen mx-auto ">
         <motion.div
           margin="0 0 -200px 0"
           amount="all"
