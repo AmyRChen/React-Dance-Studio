@@ -1,5 +1,5 @@
 ## AC Dance Studio Website
-Production: [react-portfolio-app-amyrchen.vercel.app](https://react-portfolio-app-amyrchen.vercel.app/)
+Production: https://react-dance-studio-app-amyrchen.vercel.app/
 - The website is for AC Dance Studio, which introduces the studio and the courses they offer. User can also contact the studio directly via Contact page to ask for more details.
 - Environment: JavaScript, React, Tailwind CSS, Framer Motion, Vercel
 
