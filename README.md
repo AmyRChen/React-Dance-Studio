@@ -1,6 +1,8 @@
 ## AC Dance Studio Website
+
+This is a website for a dance studio that I built to learn Tailwind CSS. As a dance enthusiast, I came up with the idea of creating a static website to introduce the dance studio to others.
+
 Production: https://react-dance-studio-app-amyrchen.vercel.app/
-- The website is for AC Dance Studio, which introduces the studio and the courses they offer. User can also contact the studio directly via Contact page to ask for more details.
 - Environment: JavaScript, React, Tailwind CSS, Framer Motion, Vercel
 
 ### I have an idea to redesign this webpage...
